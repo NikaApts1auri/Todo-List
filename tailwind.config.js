@@ -9,7 +9,7 @@ export default {
       colors:{
        dark:"#171823"
       },
-      backgroundImage:{
+      backgroundImage:{ 
         "hero-img":"url('./images/darck-image.jpg')"
       }
     },

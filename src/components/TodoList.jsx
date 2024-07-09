@@ -32,7 +32,7 @@ export default function TodoList({ todos, setTodos }) {
   };
   //till here
   return (
-    <div>
+    <div className="w-full">
       <ul className="w-full bg-[#25273d] mt-[30px] py-[15px]">
         {todos.map((item) => (
           <li key={item.id} className="py-[15px] px-[20px] ">

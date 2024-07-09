@@ -8,8 +8,9 @@ function App() {
 
   return (
     <main
-      className="min-h-screen min-w-screen 
-     bg-hero-img bg-no-repeat bg-dark "
+      style={{ backgroundSize: "100% 380px" }}
+      className="min-h-screen w-[100%] 
+     bg-hero-img bg-no-repeat  bg-dark "
     >
       <div className="w-[540px] mx-auto pt-[70px] ">
         <div className="flex justify-between items-center ">
